@@ -84,6 +84,30 @@ font-family: "Poppins", sans-serif;
   font-weight: 800;
 }
 
+.submit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 1rem 0.7rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background: #101072;
+  color: #ca1010;
+  cursor: pointer;
+
+}
+.btn_search :hover{
+transform: scale(1.1);
+  background-color: rgb(49, 184, 100);
+  color: #0e1111;
+  
+  cursor: pointer;
+}
+
 /* content section */
 .content_section {
   padding: 1.5rem;
@@ -164,7 +188,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .icons {
-  opacity: 0;
+  opacity: 100;
 }
 
 .icons.fadeIn {
