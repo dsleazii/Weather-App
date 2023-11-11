@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather app</title>
     <link rel="stylesheet" href="index.css" />
-    <script src = "index.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
      
   </head>
   <body>
+    
     <div class="container">
       <div class="wrapper">
         <div class="img_section">
           <div class="default_info">
-            <h2 class="default_day">Sunday</h2>
+            <h2 class="default_day">Monday</h2>
             <span class="default_date">29 October 2023 </span>
             <div class="icons">
               <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png" alt="" />
-              <h2 class="weather_temp">22°C</h2>
+              <h2 class="weather_temp">22°F</h2>
               <h3 class="cloudtxt">Overcast Clouds</h3>
             </div>
           </div>
@@ -34,7 +34,7 @@
             />
             <button type="submit" class="btn_search">Search</button>
           </form>
->
+
           <div class="day_info">
             <div class="content">
               <p class="title">NAME</p>
@@ -54,27 +54,33 @@
             </div>
           </div>
 
-          <div class="list_content">
+          <div class="list_content" id="forecast">
+            <div class=" wewather-forecast-date"></div>
+            <div class=" wewather-forecast-icon"></div>
+            <div class=" wewather-forecast-temperatures"></div>
+            <div class=" wewather-forecast-temperature">
+              <strong>23&deg;F</strong>
+            </div>
             <ul>
               <li>
                 <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png" />
-                <span>Sat</span>
-                <span class="day_temp">23°C</span>
+                <span></span>
+                <span class="day_temp">23°F</span>
               </li>
               <li>
                 <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png" />
-                <span>Mon</span>
-                <span class="day_temp">23°C</span>
+                <span></span>
+                <span class="day_temp">23°F</span>
               </li>
               <li>
                 <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-night.png" />
-                <span>Tues</span>
-                <span class="day_temp">23°C</span>
+                <span></span>
+                <span class="day_temp">23°F</span>
               </li>
               <li>
                 <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" />
-                <span>Wed</span>
-                <span class="day_temp">23°C</span>
+                <span></span>
+                <span class="day_temp">23°F</span>
               </li>
             </ul>
           </div>
@@ -83,6 +89,7 @@
     </div>
 <footer class="footer">This project was coded by <a href="https://www.linkedin.com/in/dedra-dearborne-7532b7223/"> Dedra Dearborne <a>. This is an <A href=https://github.com/dsleazii> opened source on Github</A> and <a href="https://gorgeous-crostata-536dd6.netlify.app/"> hosted on Netlify.</a> </footer>
    
-   
+   <script src = "index.js"></script>
+    
   </body>
 </html>
