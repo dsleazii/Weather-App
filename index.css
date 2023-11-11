@@ -100,7 +100,7 @@ font-family: "Poppins", sans-serif;
   cursor: pointer;
 
 }
-.btn_search :hover{
+.submit :hover{
 transform: scale(1.1);
   background-color: rgb(49, 184, 100);
   color: #0e1111;
@@ -176,9 +176,9 @@ transform: scale(1.1);
 
 .list_content ul li:hover {
   transform: scale(1.1);
-  background-color: #6cdfdf;
+  background-color: #e2f0f0;
   color: #0e1111;
-  box-shadow: 0 5px 15px rgba(43, 255, 0, 0.616);
+  box-shadow: 0 5px 15px rgba(48, 42, 42, 0.603)16;
   cursor: pointer;
 }
 
